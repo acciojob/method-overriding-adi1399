@@ -8,9 +8,7 @@ import java.util.*;
 }
 
  class B extends A{
-  B(){
-    super.meth();
-  }
+
   public String meth(){
     return "Method is overridden in Extendend class B";
   }
